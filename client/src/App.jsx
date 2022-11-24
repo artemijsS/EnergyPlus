@@ -34,7 +34,7 @@ const App = () => (
 
 <div className={`bg-silver w-full ${styles.flexCenter}`}>
       <div className={`${styles.WideBoxWidth}`}>
-        <MainVideo />
+        {/* <MainVideo /> */}
       </div>
     </div>
 
