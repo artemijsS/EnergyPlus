@@ -4,11 +4,11 @@ import React from 'react';
 //import {Button} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './styles';
-
+import {Home, Panels, Carports, Cleaning, Products, Contacts} from './pages';
 //import { AppBar, Box, Container, IconButton, Toolbar, Typography } from '@mui/material';
 //import MenuIcon from '@mui/icons-material/Menu';
 import {Navbar, Billing, CardDeal, Business, Clients, CTA, Stats, Footer, Testimonials, Hero, MainVideo} from './components';
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 // function App() {
 //   return (
@@ -18,12 +18,35 @@ import {Navbar, Billing, CardDeal, Business, Clients, CTA, Stats, Footer, Testim
 //   );
 // }
 const App = () => (
-  <div className='bg-osnova w-full overflow-hidden'>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.WideBoxWidth}`}>
-        <Navbar />
+
+  <div className='bg-white w-full overflow-hidden'>
+    
+        
+        
+        
+    <Router>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.WideBoxWidth}`}>
+          <Navbar />
+        </div>
       </div>
+      
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/Panels' element={<Panels/>} />
+          <Route path='/Carports' element={<Carports/>} />
+          <Route path='/Cleaning' element={<Cleaning/>} />
+          <Route path='/Products' element={<Products/>} />
+          <Route path='/Contacts' element={<Contacts/>} />
+        </Routes>
+        
+    <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.WideBoxWidth}`}>
+    <Footer />
     </div>
+      </div>
+      </Router>
+      
 
     {/* <video
   src="https://mdbcdn.b-cdn.net/img/video/forest.mp4"
@@ -32,18 +55,11 @@ const App = () => (
   class="clip w-full"
 ></video> */}
 
-<div className={`bg-silver w-full ${styles.flexCenter}`}>
-      <div className={`${styles.WideBoxWidth}`}>
-        {/* <MainVideo /> */}
-      </div>
-    </div>
+   
+  
 
 
-    <div className={`bg-vtoroy ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
+
 
 
     {/* <div className={`bg-vtoroy ${styles.paddingX} ${styles.flexStart}`}>

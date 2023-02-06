@@ -1,21 +1,56 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { solpan, solpanclean, carport } from '../assets';
+
+
+export const callouts = [
+  {
+    name: 'Установка',
+    description: 'Установка солнечных панелей на ваш дом и не только',
+    imageSrc: solpan,
+    imageAlt: 'solar panels installation',
+    href: '/panels',
+  },
+  {
+    name: 'Очистка',
+    description: 'Очистка солнечных панелей',
+    imageSrc: solpanclean,
+    imageAlt: 'solar panels cleaning',
+    href: '/cleaning',
+  },
+  {
+    name: 'Карпорты',
+    description: 'Современное решение для парковок',
+    imageSrc: carport,
+    imageAlt: 'cars in carport',
+    href: '/carports',
+  },
+]
+
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
+    title: "Начало",
+  },
+  {
+    id: "Panels",
     title: "Панели",
   },
   {
-    id: "features",
-    title: "Спроектировать",
+    id: "Carports",
+    title: "Карпорты",
   },
   {
-    id: "product",
-    title: "О нас",
+    id: "Cleaning",
+    title: "Чистка солнечных панелей",
   },
   {
-    id: "clients",
-    title: "Подать заявку",
+    id: "Products",
+    title: "Товары",
+  },
+  {
+    id: "Contacts",
+    title: "Контакты",
   },
 ];
 

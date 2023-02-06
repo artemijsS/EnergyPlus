@@ -12,9 +12,10 @@ module.exports = {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
 
-        osnova: "#F8F8FF",
-        vtoroy: "#DAA520",
-        zeleny: "#228B22",
+        white: "#B4F9E1",
+        gray: "#292929",
+        green: "#139A43",
+        lightgreen: "#19C856",
         silver: "#C0C0C0",
       },
       fontFamily: {

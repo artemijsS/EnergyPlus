@@ -24,6 +24,10 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 
+import solpan from "./solpan.jpg";
+import solpanclean from "./solpanclean.jpg";
+import carport from "./carport.jpg";
+
 export {
   airbnb,
   bill,
@@ -50,4 +54,9 @@ export {
   people01,
   people02,
   people03,
+
+
+  solpan,
+  solpanclean,
+  carport,
 };
