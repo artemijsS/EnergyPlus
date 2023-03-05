@@ -1,30 +1,20 @@
 {
-  "name": "energyplus",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "energy-plus",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "server": "nodemon index.js",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm install && npm run build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "engines": {
-    "node": "16.16.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/artemijsS/EnergyPlus.git"
-  },
-  "author": "artemijsse && marek",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/artemijsS/EnergyPlus/issues"
-  },
-  "homepage": "https://github.com/artemijsS/EnergyPlus#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
   }
 }
