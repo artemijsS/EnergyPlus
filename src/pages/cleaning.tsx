@@ -2,16 +2,16 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import MainContainer from "@/components/MainContainer"
 import {useTranslation} from "next-i18next";
 
-export default function Home() {
+export default function Cleaning() {
 
     const { t } = useTranslation();
 
     return (
         <MainContainer
-            title={t("home:seo.title") || "EnergyPlus"}
-            description={t("home:seo.description") || "EnergyPlus..."}
+            title={t("cleaning:seo.title") || "EnergyPlus | Cleaning"}
+            description={t("cleaning:seo.description") || "EnergyPlus Cleaning..."}
         >
-            <h1>home</h1>
+            <h1>cleaning</h1>
         </MainContainer>
     )
 }
