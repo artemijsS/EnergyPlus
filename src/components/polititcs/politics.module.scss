@@ -1,0 +1,41 @@
+.politicsBlock {
+  position: relative;
+  margin: 100px auto;
+  padding: 0 50px;
+
+  h1 {
+    color: var(--cl-highlighted);
+    font-size: 3.2em;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  text-align: center;
+
+  .text {
+    color: var(--cl-dark-state);
+    font-size: 20px;
+    font-weight: 300;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  h3 {
+    margin-top: 50px;
+    color: var(--cl-dark-state);
+  }
+
+  .exit {
+    position: absolute;
+    top: -10%;
+    right: 5%;
+    height: 50px;
+
+    &:hover rect {
+      fill: var(--cl-dark-state);
+    }
+
+  }
+
+}

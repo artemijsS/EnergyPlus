@@ -1,0 +1,49 @@
+.footerContainer {
+  background-color: var(--cl-dark-state);
+  height: 345px;
+  width: 100%;
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+
+    .insta {
+      margin-top: 100px;
+      margin-bottom: -10px;
+
+      svg {
+        height: 50px;
+
+        &:hover {
+          path {
+            fill: var(--cl-highlighted)
+          }
+        }
+      }
+    }
+
+    .mail a {
+      text-decoration-line: underline;
+    }
+
+    .terms {
+      display: flex;
+      gap: 30px;
+
+      button {
+        color: #FFFFFF;
+      }
+    }
+
+    .copyright {
+
+    }
+
+  }
+
+}

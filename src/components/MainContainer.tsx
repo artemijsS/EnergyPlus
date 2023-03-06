@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MyContext } from "@/context/MainContext";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Header from "./Header";
+import Footer from "./Footer";
+import Politics from "./polititcs/Politics";
 
 interface MainContainer {
     children?: React.ReactNode,
@@ -12,6 +15,7 @@ interface MainContainer {
 
 const MainContainer = ({ children, title, description, keywords }: MainContainer) => {
 
+    const { state } = useContext(MyContext);
     const router = useRouter()
 
     return (
@@ -36,7 +40,12 @@ const MainContainer = ({ children, title, description, keywords }: MainContainer
 
             </Head>
             <Header />
-            {children}
+            {state.politics ?
+                <Politics />
+                :
+                children
+            }
+            <Footer />
         </>
     )
 }

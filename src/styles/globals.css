@@ -4,10 +4,11 @@
     --cl-bg-main: #FFF;
     --cl-highlighted: #4FAAFF;
     --cl-darkest-text: #01163C;
+    --cl-dark-state: #034177;
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif !important;
 }
 
 .wrapper {
@@ -16,4 +17,10 @@ body {
     height: inherit;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+button:hover, a:hover {
+    cursor: pointer;
+    color: var(--cl-highlighted) !important;
+    text-underline-color: var(--cl-highlighted);
 }

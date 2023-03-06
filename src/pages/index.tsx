@@ -10,6 +10,7 @@ export default function Home() {
         <MainContainer
             title={t("home:seo.title") || "EnergyPlus"}
             description={t("home:seo.description") || "EnergyPlus..."}
+            keywords={t("home:seo.keywords") || "energyplus, solar panels, carport, solar panel cleaning, carports"}
         >
             <h1>home</h1>
         </MainContainer>
