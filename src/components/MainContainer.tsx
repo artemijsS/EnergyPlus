@@ -5,6 +5,7 @@ import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
 import Politics from "./polititcs/Politics";
+import CookieNotify from "./cookieNotify/CookieNotify";
 
 interface MainContainer {
     children?: React.ReactNode,
@@ -39,6 +40,7 @@ const MainContainer = ({ children, title, description, keywords }: MainContainer
                 <link rel="alternate" hrefLang="ru" href={"https://www.energyplus.lv/ru" + router.pathname}/>
 
             </Head>
+            <CookieNotify />
             <Header />
             {state.politics ?
                 <Politics />

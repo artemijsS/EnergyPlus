@@ -5,10 +5,14 @@
     --cl-highlighted: #4FAAFF;
     --cl-darkest-text: #01163C;
     --cl-dark-state: #034177;
+
+    --small: 600px;
+    --medium: 900px;
 }
 
 body {
     font-family: 'Outfit', sans-serif !important;
+    min-width: 310px;
 }
 
 .wrapper {
@@ -23,4 +27,14 @@ button:hover, a:hover {
     cursor: pointer;
     color: var(--cl-highlighted) !important;
     text-underline-color: var(--cl-highlighted);
+}
+
+/*stuff*/
+.all-screen {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
