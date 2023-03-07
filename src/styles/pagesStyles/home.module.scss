@@ -194,7 +194,7 @@
     }
   }
   @media screen and (max-width: $small) {
-    height: 250px;
+    height: 300px;
     margin-top: 20px;
     .blocks {
       gap: 8px;
@@ -212,7 +212,7 @@
     }
   }
   @media screen and (max-width: $smallExtra) {
-    height: 210px;
+    height: 240px;
     .blocks {
 
       .block {
@@ -250,7 +250,7 @@
 
       &:after {
         content: '';
-        background-image: url("/assets/home/panelsHome.png");
+        background-color: var(--cl-dark-state);
         background-size: cover;
         display: block;
         padding-bottom: 100%;
@@ -261,6 +261,19 @@
         .textBlock {
           color: #FFFFFF;
           background-color: var(--cl-highlighted);
+        }
+        &:after {
+          background-image: url("/assets/home/panelsHome.png");
+        }
+      }
+      &:nth-of-type(2) {
+        &:after {
+          background-image: url("/assets/home/cleaningHome.png");
+        }
+      }
+      &:nth-of-type(3) {
+        &:after {
+          background-image: url("/assets/home/carportHome.png");
         }
       }
 
