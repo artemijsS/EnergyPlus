@@ -6,6 +6,7 @@
     --cl-darkest-text: #01163C;
     --cl-dark-state: #034177;
     --cl-passive-state: #3775AC;
+    --cl-bg: #E9F2F6;
 
     --small: 600px;
     --medium: 900px;
@@ -18,6 +19,7 @@ html {
 body {
     font-family: 'Outfit', sans-serif;
     min-width: 310px;
+    overflow-x: hidden;
 }
 
 .wrapper {

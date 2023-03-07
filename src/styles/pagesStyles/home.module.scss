@@ -1,0 +1,357 @@
+@import "src/styles/global";
+
+.mainBlock {
+  position: relative;
+
+  .mainImage {
+    width: 100vw;
+    height: 593px;
+    min-width: 310px;
+    object-fit: cover;
+
+    @media screen and (max-width: $mediumBig) {
+      height: 400px;
+    }
+    @media screen and (max-width: $medium) {
+      height: 300px;
+    }
+    @media screen and (max-width: $small) {
+      height: 212px;
+    }
+
+  }
+
+  .textBlock {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    color: #FFFFFF;
+
+    .text {
+      margin-left: 15%;
+      margin-top: 10%;
+      max-width: 600px;
+
+      h1 {
+        color: #FFFFFF;
+        font-size: 3.5em;
+      }
+
+      h4 {
+        font-weight: 300;
+      }
+    }
+
+  }
+
+  @media screen and (max-width: $small) {
+    .textBlock {
+      .text {
+        margin-left: 0;
+        margin-top: 5%;
+      }
+    }
+  }
+  @media screen and (max-width: $smallExtra) {
+    .textBlock {
+      margin-top: 10%;
+      .text {
+        font-size: 0.7em;
+      }
+    }
+  }
+}
+
+.info {
+  height: 350px;
+  position: relative;
+
+  .blocks {
+    position: absolute;
+    top: -15%;
+    display: flex;
+    width: calc(100% - 60px);
+
+    .break {
+      display: none;
+      flex-basis: 100%;
+      height: 0;
+    }
+
+    .block {
+      flex: 1;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: var(--cl-bg);
+      position: relative;
+
+      &:after {
+        content: "";
+        display: block;
+        padding-bottom: 65%;
+      }
+      &:first-of-type {
+        background-color: var(--cl-highlighted);
+        border-radius: 10px;
+        margin-right: 34px;
+        .blockText {
+          color: #FFFFFF;
+        }
+      }
+      &:nth-of-type(2) {
+        border-radius: 10px 0 0 10px;
+        border-right: 1px dashed var(--cl-darkest-text);
+      }
+      &:nth-of-type(4) {
+        border-radius: 0 10px 10px 0;
+      }
+
+      .blockText {
+        position: absolute;
+        width: calc(100% - 40px);
+        height: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--cl-dark-state);
+
+        h4 {
+          font-style: normal;
+          font-weight: 400;
+          margin-bottom: 5%;
+          margin-top: 10%;
+        }
+        p {
+          font-style: normal;
+          font-weight: 300;
+        }
+        h6 {
+          margin-top: 5%;
+          margin-bottom: 10%;
+          font-style: normal;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $mediumBig + 300px) {
+    height: 200px;
+    .blocks {
+      .block {
+        .blockText {
+          padding: 0 10px;
+          width: 89%;
+          font-size: 0.75em;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $mediumBig) {
+    //height: 350px;
+    .blocks {
+      top: -5%;
+    }
+  }
+  @media screen and (max-width: $medium) {
+    height: 350px;
+    margin-top: 30px;
+    .blocks {
+      top: 0;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+
+
+      .break {
+        display: block;
+      }
+
+      .block {
+        max-width: 271px;
+        min-width: 180px;
+        height: 150px;
+        border-radius: 10px !important;
+
+        &:after {
+          content: unset;
+        }
+
+        &:first-of-type {
+          margin: unset;
+          //flex: 0.5;
+        }
+
+        &:nth-of-type(2) {
+          border-right: unset;
+        }
+
+        &:nth-of-type(4) {
+
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $small) {
+    height: 250px;
+    margin-top: 20px;
+    .blocks {
+      gap: 8px;
+      width: 95%;
+
+      .block {
+        flex: unset;
+        width: 180px;
+        height: 100px;
+
+        .blockText {
+          font-size: 0.55em;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $smallExtra) {
+    height: 210px;
+    .blocks {
+
+      .block {
+        min-width: unset;
+      }
+    }
+  }
+  @media screen and (max-width: $smallExtra - 11px) {
+    .blocks {
+
+      .block {
+        width: 141px;
+        height: 95px;
+
+        .blockText {
+          font-size: 0.45em;
+        }
+      }
+    }
+  }
+}
+
+.offer {
+  margin-bottom: 200px;
+
+  .offerBlocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+
+    .block {
+      flex: 1;
+      position: relative;
+
+      &:after {
+        content: '';
+        background-image: url("/assets/home/panelsHome.png");
+        background-size: cover;
+        display: block;
+        padding-bottom: 100%;
+        border-radius: 10px;
+      }
+
+      &:first-of-type {
+        .textBlock {
+          color: #FFFFFF;
+          background-color: var(--cl-highlighted);
+        }
+      }
+
+      .textBlock {
+        position: absolute;
+        bottom: -20%;
+        right: -5%;
+        width: 80%;
+        height: 40%;
+        background-color: var(--cl-bg);
+        border-radius: 10px;
+        color: var(--cl-dark-state);
+        padding: 0 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.85em;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+        h5 {
+          margin-top: unset;
+          margin-bottom: 4%;
+          font-weight: 400;
+        }
+        p {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium) {
+    .offerBlocks {
+      flex-direction: column;
+      gap: 80px;
+
+      .block {
+        flex: unset;
+        width: 60%;
+
+        &:after {
+          padding-bottom: 60%;
+        }
+
+        &:nth-of-type(2) {
+          align-self: flex-end;
+          .textBlock {
+            left: -15%;
+          }
+        }
+
+        .textBlock {
+          bottom: -20%;
+          right: -5%;
+          width: 55%;
+          padding: 0 5%;
+          height: 45%;
+
+          font-size: 0.80em;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $small) {
+    margin-bottom: 100px;
+
+    .offerBlocks {
+      gap: 65px;
+
+      .block {
+        .textBlock {
+          font-size: 0.8em;
+          width: 65%;
+          height: 50%;
+          bottom: -30%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $smallExtra) {
+    .offerBlocks {
+      gap: 50px;
+
+      .block {
+        .textBlock {
+          font-size: 0.65em;
+          height: 60%;
+        }
+      }
+    }
+  }
+
+}
+
