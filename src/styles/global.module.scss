@@ -1,0 +1,21 @@
+@import "./global";
+
+.mainBlock {
+  padding-top: 107px;
+
+  h1 {
+    font-size: 3.2em;
+  }
+
+
+  @media screen and (max-width: $mediumBig) {
+    padding-top: 90px;
+    font-size: 0.8em;
+  }
+  @media screen and (max-width: $medium) {
+    padding-top: 80px;
+  }
+  @media screen and (max-width: $small) {
+    font-size: 0.65em;
+  }
+}

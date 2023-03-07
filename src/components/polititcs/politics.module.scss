@@ -1,19 +1,35 @@
+@import "src/styles/global";
+
 .politicsBlock {
-  position: relative;
   margin: 100px auto;
   padding: 0 50px;
+  position: relative;
+  text-align: center;
 
   h1 {
     color: var(--cl-highlighted);
     font-size: 3.2em;
     text-align: center;
     margin-bottom: 100px;
+    z-index: 1;
   }
-  text-align: center;
+
+  .exit {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    right: 50px;
+    height: 50px;
+
+    &:hover rect {
+      fill: var(--cl-dark-state);
+    }
+
+  }
 
   .text {
     color: var(--cl-dark-state);
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 300;
 
     a {
@@ -26,16 +42,28 @@
     color: var(--cl-dark-state);
   }
 
-  .exit {
-    position: absolute;
-    top: -10%;
-    right: 5%;
-    height: 50px;
-
-    &:hover rect {
-      fill: var(--cl-dark-state);
+  @media screen and (max-width: $medium) {
+    .exit {
+      height: 40px;
     }
-
+    h1 {
+      margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: $small) {
+    padding: 0 10px;
+    margin-top: 50px;
+    position: relative;
+    h1 {
+      text-align: left;
+      margin-bottom: 50px;
+    }
+    .exit {
+      width: 30px;
+      height: 30px;
+      right: 20px;
+      top: -35px;
+    }
   }
 
 }

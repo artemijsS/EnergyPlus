@@ -15,8 +15,12 @@ const Politics = () => {
     useEffect(() => {
         function handleRouteChange() {
             let location = window.location.pathname
-            if (location.includes("ru/") || location.includes("lv/"))
+            console.log(router.pathname)
+            if (location.includes("/ru") || location.includes("lv"))
                 location = location.slice(3)
+            if (!location)
+                location = "/"
+            console.log(location)
             if (router.pathname !== location) {
                 updateState({ politics: '' })
             }
@@ -53,7 +57,9 @@ const Politics = () => {
                             </defs>
                         </svg>
                     </button>
-                    <h1>{t(`politics:${state.politics}.title`)}</h1>
+                    <h1>
+                        {t(`politics:${state.politics}.title`)}
+                    </h1>
                     <p className={style.text} dangerouslySetInnerHTML={{ __html: t(`politics:${state.politics}.text`) }}/>
                     <h3>SIA "EnergyPlus"</h3>
                 </div>

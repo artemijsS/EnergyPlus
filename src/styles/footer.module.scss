@@ -1,3 +1,5 @@
+@import "global";
+
 .footerContainer {
   background-color: var(--cl-dark-state);
   height: 345px;
@@ -8,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: #FFFFFF;
 
@@ -40,10 +42,31 @@
       }
     }
 
-    .copyright {
+  }
+  @media screen and (max-width: $medium) {
+    .footer {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: $small) {
+    height: 150px;
+    .footer {
+      font-size: 0.70em;
+      gap: 15px;
+
+      .insta {
+        margin-top: 40px;
+        margin-bottom: -5px;
+
+        svg {
+          height: 30px;
+        }
+      }
+
+      .terms {
+        gap: 10px;
+      }
 
     }
-
   }
-
 }

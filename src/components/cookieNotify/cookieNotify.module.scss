@@ -1,5 +1,4 @@
-$medium: 900px;
-$small: 600px;
+@import "src/styles/global";
 
 .cookie {
   flex-direction: column;
@@ -66,6 +65,7 @@ $small: 600px;
   }
   @media screen and (max-width: $small) {
     .cookieBlock {
+      max-width: unset;
       width: 100%;
       min-height: 200px;
       box-shadow: unset;

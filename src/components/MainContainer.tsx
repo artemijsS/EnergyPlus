@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Politics from "./polititcs/Politics";
 import CookieNotify from "./cookieNotify/CookieNotify";
+import styles from '@/styles/global.module.scss';
 
 interface MainContainer {
     children?: React.ReactNode,
@@ -42,11 +43,13 @@ const MainContainer = ({ children, title, description, keywords }: MainContainer
             </Head>
             <CookieNotify />
             <Header />
-            {state.politics ?
-                <Politics />
-                :
-                children
-            }
+            <div className={styles.mainBlock}>
+                {state.politics ?
+                    <Politics />
+                    :
+                    children
+                }
+            </div>
             <Footer />
         </>
     )

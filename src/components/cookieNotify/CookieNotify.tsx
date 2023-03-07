@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import {inspect} from "util";
 import styles from './cookieNotify.module.scss';
 
 function CookieNotify(): JSX.Element {
