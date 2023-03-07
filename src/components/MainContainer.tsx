@@ -34,7 +34,7 @@ const MainContainer = ({ children, title, description, keywords }: MainContainer
                 <meta property="og:url" content="https://www.energyplus.lv" />
                 <meta property="og:img" content="https://www.energyplus.lv/icon_192.png" />
                 {title && <meta property="og:title" content={title} />}
-                {description && <meta property="og:title" content={description} />}
+                {description && <meta property="og:description" content={description} />}
 
                 <link rel="alternate" hrefLang="en" href={"https://www.energyplus.lv" + router.pathname}/>
                 <link rel="alternate" hrefLang="lv" href={"https://www.energyplus.lv/lv" + router.pathname}/>

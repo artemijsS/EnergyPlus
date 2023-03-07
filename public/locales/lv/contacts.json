@@ -1,6 +1,20 @@
 {
   "seo": {
     "title": "EnergyPlus | Kontakti",
-    "description": "EnergyPlus Kontakti..."
+    "description": "EnergyPlus Kontakti...",
+    "keywords": "energyplus, energyplus kontakti, saules paneļi, karports, saules paneļu tīrīšana, karporti"
+  },
+  "section1": {
+    "title": "Kontakti",
+    "email": "Email:",
+    "phone": "Tālr.:",
+    "name": "Uzņēmums:",
+    "reg": "Reģ. n.:",
+    "address": "Adrese:",
+    "text": {
+      "h5": "Jūs vēlaties un mēs darām",
+      "p": "Jūtieties brīvi dalīties ar mūsu komandu ar savu ideju par saules paneļu integrēšanu jūsu mājā / birojā / autostāvvietā",
+      "h6": "Aprēķināsim kopā!"
+    }
   }
 }

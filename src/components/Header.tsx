@@ -91,11 +91,11 @@ const Header = () => {
                                         <Image src={Lv} alt={"LV"}/>
                                     </Link>
                                 </div>
-                                <Link href={"/"} className={style.link + " " + (router.pathname === "/" ? style.active : "")}>{t("header:home")}</Link>
-                                <Link href={"/solar-panels"} className={style.link + " " + (router.pathname === "/solar-panels" ? style.active : "")}>{t("header:solarPanels")}</Link>
-                                <Link href={"/carports"} className={style.link + " " + (router.pathname === "/carports" ? style.active : "")}>{t("header:carports")}</Link>
-                                <Link href={"/cleaning"} className={style.link + " " + (router.pathname === "/cleaning" ? style.active : "")}>{t("header:cleaning")}</Link>
-                                <Link href={"/contacts"} className={style.link + " " + (router.pathname === "/contacts" ? style.active : "")}>{t("header:contacts")}</Link>
+                                <Link href={"/"} className={style.link + " " + (router.pathname === "/" ? style.active : "")} onClick={() => onBurgerClick()}>{t("header:home")}</Link>
+                                <Link href={"/solar-panels"} className={style.link + " " + (router.pathname === "/solar-panels" ? style.active : "")} onClick={() => onBurgerClick()}>{t("header:solarPanels")}</Link>
+                                <Link href={"/carports"} className={style.link + " " + (router.pathname === "/carports" ? style.active : "")} onClick={() => onBurgerClick()}>{t("header:carports")}</Link>
+                                <Link href={"/cleaning"} className={style.link + " " + (router.pathname === "/cleaning" ? style.active : "")} onClick={() => onBurgerClick()}>{t("header:cleaning")}</Link>
+                                <Link href={"/contacts"} className={style.link + " " + (router.pathname === "/contacts" ? style.active : "")} onClick={() => onBurgerClick()}>{t("header:contacts")}</Link>
                             </nav>
                         </div>
                     </div>

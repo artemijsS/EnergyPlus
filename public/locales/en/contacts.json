@@ -1,6 +1,20 @@
 {
   "seo": {
     "title": "EnergyPlus | Contacts",
-    "description": "EnergyPlus Contacts..."
+    "description": "EnergyPlus Contacts...",
+    "keywords": "energyplus, energyplus contacts, carport, solar panel cleaning, carports, solar panels"
+  },
+  "section1": {
+    "title": "Contact Info",
+    "email": "Email:",
+    "phone": "Phone:",
+    "name": "Name:",
+    "reg": "Reg. n.:",
+    "address": "Address:",
+    "text": {
+      "h5": "You want & We do",
+      "p": "Feel free to share with our team with your idea of integrating the solar panels for your house / office / parking",
+      "h6": "Lets calculate together!"
+    }
   }
 }
