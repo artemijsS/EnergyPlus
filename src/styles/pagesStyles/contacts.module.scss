@@ -24,7 +24,7 @@
     .title {
       display: flex;
       flex-direction: column;
-      flex:0.3;
+      flex:0.2;
       gap: 30px;
       color: var(--cl-darkest-text);
       font-weight: 500;
@@ -32,7 +32,7 @@
     .data {
       display: flex;
       flex-direction: column;
-      flex:0.3;
+      flex:0.2;
       gap: 30px;
       color: var(--cl-dark-state)
     }
@@ -175,10 +175,10 @@
 
 .form {
   max-width: 964px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin: auto auto 100px;
 
   .row {
     flex: 1;
@@ -194,7 +194,7 @@
         position: absolute;
         top: -20px;
       }
-      input, select {
+      input, select, textarea {
         width: 94%;
         height: 50px;
         padding: 0 3%;
@@ -202,18 +202,111 @@
         border-radius: 10px;
         border: unset;
         font-family: inherit;
+        color: var(--cl-dark-state);
       }
       select {
         width: 100%;
+        color: var(--cl-dark-state);
 
         option {
           &:last-of-type {
             border-radius: 0 0 10px 10px;
           }
         }
-        span {
-          color: #a9a9a9;
+      }
+      textarea {
+        padding: 10px 3%;
+        height: 250px;
+        resize: none;
+        cursor: auto;
+
+        /* width */
+        &::-webkit-scrollbar {
+          width: 10px;
         }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+          background: var(--cl-bg);
+          border-radius: 10px;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+          background: var(--cl-highlighted);
+          border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+          background: var(--cl-dark-state);
+        }
+      }
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    }
+  }
+  .rowButton {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.2em;
+
+    button {
+      height: 50px;
+      background-color: var(--cl-highlighted);
+      padding: 0 70px;
+      border-radius: 10px;
+      color: white;
+
+      &:hover {
+        background-color: var(--cl-dark-state);
+        color: #FFFFFF !important;
+      }
+
+      &:disabled {
+        background-color: #cb3737;
+        &:hover {
+          background-color: #cb3737;
+        }
+      }
+
+      &.buttonSent {
+        background-color: var(--cl-dark-state) !important;
+        &:hover {
+          background-color: var(--cl-dark-state) !important;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $small) {
+    margin-top: 60px;
+    .row {
+      gap: 20px;
+
+      .input {
+
+        input, select {
+          height: 35px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+    }
+    .rowButton {
+      margin-top: -15px;
+
+      button {
+        height: 35px;
+        padding: 0 40px;
       }
     }
   }

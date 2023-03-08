@@ -7,7 +7,7 @@
   "section1": {
     "title": "Контакты",
     "email": "Email:",
-    "phone": "Телефон.:",
+    "phone": "Телефон:",
     "name": "Компания:",
     "reg": "Рег. н.:",
     "address": "Адрес:",
@@ -16,5 +16,26 @@
       "p": "Не стесняйтесь поделиться с нашей командой своей идеей по интеграции солнечных панелей для вашего дома / офиса / парковки",
       "h6": "Давайте посчитаем вместе!"
     }
+  },
+  "form": {
+    "title": "Связываться с нами",
+    "name": "Имя / Фамилия*",
+    "namePlaceholder": "Ваше Имя / Фамилия",
+    "phone": "Телефон",
+    "phonePlaceholder": "Ваш номер телефона",
+    "email": "Email*",
+    "emailPlaceholder": "Ваш email",
+    "category": "Категория*",
+    "categoryPlaceholder": "Выберите Категорию",
+    "categorySolar": "Солнечные панели",
+    "categoryCarports": "Карпорты",
+    "categoryCleaning": "Чистка",
+    "categoryOther": "Другое",
+    "message": "Сообщение*",
+    "messagePlaceholder": "Дайте нам знать о вашем проекте",
+    "button": "ОТПРАВИТЬ",
+    "buttonLoading": "ЗАГРУЗКА",
+    "buttonSend": "ОТПРАВЛЕННО",
+    "buttonError": "ОШИБКА"
   }
 }

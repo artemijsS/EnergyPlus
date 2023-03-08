@@ -16,5 +16,26 @@
       "p": "Feel free to share with our team with your idea of integrating the solar panels for your house / office / parking",
       "h6": "Lets calculate together!"
     }
+  },
+  "form": {
+    "title": "Feel Free to Contact & Reach Us",
+    "name": "Name / Surname*",
+    "namePlaceholder": "Your Name / Surname",
+    "phone": "Phone",
+    "phonePlaceholder": "Your Phone Number",
+    "email": "Email*",
+    "emailPlaceholder": "Your email",
+    "category": "Category*",
+    "categoryPlaceholder": "Select Category",
+    "categorySolar": "Solar Panels",
+    "categoryCarports": "Carports",
+    "categoryCleaning": "Cleaning",
+    "categoryOther": "Other",
+    "message": "Message*",
+    "messagePlaceholder": "Let us know about your project",
+    "button": "SEND",
+    "buttonLoading": "LOADING",
+    "buttonSend": "SENT",
+    "buttonError": "ERROR"
   }
 }

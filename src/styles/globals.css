@@ -42,6 +42,9 @@ button:hover, a:hover {
     color: var(--cl-highlighted) !important;
     text-underline-color: var(--cl-highlighted);
 }
+button:disabled {
+    cursor: not-allowed;
+}
 
 /*stuff*/
 .all-screen {
