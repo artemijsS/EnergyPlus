@@ -1,0 +1,97 @@
+@import "src/styles/global";
+@import "solarPanels.module";
+
+.important {
+  &.carportPage {
+    .steps {
+      gap: 5%;
+
+      .step {
+        height: 220px;
+
+        &:not(:last-of-type) .number::after {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: -130%;
+          right: 45%;
+          transform: translateX(-50%);
+          height: 80px;
+          width: 3px;
+          background-color: var(--cl-highlighted);
+        }
+      }
+      }
+  }
+
+  .carport {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+
+    .imageHolder {
+      width: 90%;
+      height: 80%;
+      position: relative;
+      img {
+        position: absolute;
+        top: -15%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        z-index: 2;
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium) {
+    flex-direction: column-reverse;
+    &.carportPage {
+      .steps {
+        gap: 5%;
+
+        .step {
+          height: 150px;
+          max-width: 80%;
+
+          &:not(:last-of-type) .number::after {
+            height: 60px;
+          }
+        }
+      }
+    }
+
+    .carport {
+      flex: unset;
+      width: 100%;
+      height: 200px;
+
+      .imageHolder {
+        width: 100%;
+        height: 130%;
+
+        img {
+          right: -45%;
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $small) {
+    flex-direction: column-reverse;
+    &.carportPage {
+      .steps {
+
+        .step {
+          height: 150px;
+          max-width: 90%;
+
+          &:not(:last-of-type) .number::after {
+            height: 60px;
+            bottom: -160%;
+          }
+        }
+      }
+    }
+  }
+}

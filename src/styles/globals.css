@@ -29,6 +29,9 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
+.wrapper.overFlowHidden {
+    overflow: hidden;
+}
 
 @media screen and (max-width: 600px) {
     .wrapper {
