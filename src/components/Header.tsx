@@ -47,10 +47,14 @@ const Header = () => {
             onBurgerClick(true)
     }
 
+    const onLogoClick = () => {
+        window.scrollTo(0,0);
+    }
+
     return (
         <header className={style.headerContainer}>
             <div className={"wrapper " + style.header}>
-                <div className={style.logo}>
+                <div className={style.logo} onClick={onLogoClick}>
                     <Logo/>
                 </div>
                 <nav className={style.nav}>
