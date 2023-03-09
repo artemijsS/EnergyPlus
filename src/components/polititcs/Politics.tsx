@@ -33,6 +33,10 @@ const Politics = () => {
         };
     }, [router]);
 
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [state.politics])
+
     return (
         <>
             {state.politics &&

@@ -37,5 +37,9 @@
     "buttonLoading": "LOADING",
     "buttonSend": "SENT",
     "buttonError": "ERROR"
+  },
+  "contactUs": {
+    "title": "Need consultation?<br/>We are glad to help you!",
+    "button": "Contact Us!"
   }
 }

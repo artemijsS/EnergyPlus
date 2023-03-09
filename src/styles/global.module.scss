@@ -10,6 +10,10 @@
 
   h2 {
     margin-bottom: 100px;
+
+    & span {
+      color: var(--cl-highlighted);
+    }
   }
 
   h4 {
@@ -37,7 +41,7 @@
   @media screen and (max-width: $small) {
     font-size: 0.65em;
     h2 {
-      font-size: 2.3em;
+      font-size: 2.2em;
       margin-bottom: 30px;
     }
   }

@@ -1,0 +1,56 @@
+@import "src/styles/global";
+
+.contactUs {
+  width: 100vw;
+  height: 120px;
+  margin-top: 200px;
+  background-color: var(--cl-highlighted);
+  min-width: 310px;
+
+  .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cl-bg-main);
+    font-size: 1.5em;
+
+    a {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 1% 4%;
+      border-radius: 10px;
+      background-color: var(--cl-bg-main);
+      color: var(--cl-highlighted);
+
+      &:hover, &:focus {
+        background-color: var(--cl-dark-state);
+        color: var(--cl-bg-main);
+      }
+    }
+  }
+
+  @media screen and (max-width: $mediumBig) {
+    height: 90px;
+    margin-top: 150px;
+    font-size: 0.9em;
+  }
+  @media screen and (max-width: $small) {
+    height: 60px;
+    font-size: 0.7em;
+    margin-top: 80px;
+
+    .block {
+      a {
+        padding: 2% 6%;
+      }
+    }
+  }
+  @media screen and (max-width: $smallExtra) {
+    font-size: 0.6em;
+    .block {
+      a {
+        padding: 2% 4%;
+      }
+    }
+  }
+}

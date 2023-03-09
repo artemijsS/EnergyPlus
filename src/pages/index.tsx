@@ -18,7 +18,7 @@ export default function Home() {
             keywords={t("home:seo.keywords") || "energyplus, solar panels, carport, solar panel cleaning, carports"}
         >
             <div className={styles.mainBlock}>
-                <Image src={mainHome} alt={"mainHome"} className={styles.mainImage} />
+                <Image src={mainHome} alt={"mainHome"} className={styles.mainImage} priority={true}/>
                 <div className={styles.textBlock}>
                     <div className={"wrapper"}>
                         <div className={styles.text}>

@@ -37,5 +37,9 @@
     "buttonLoading": "LOADING",
     "buttonSend": "NOSŪTĪTS",
     "buttonError": "KĻŪDA"
+  },
+  "contactUs": {
+    "title": "Nepieciešama konsultācija?<br/>Mēs esam priecīgi jums palīdzēt!",
+    "button": "Sazinies ar mums!"
   }
 }

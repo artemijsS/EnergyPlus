@@ -86,7 +86,7 @@ export default function Contacts({ emailJSPublic }: Contacts) {
                     </div>
                 </div>
             </section>
-            <section className={"wrapper " + styles.contactsSection}>
+            <section className={"wrapper " + styles.contactsSection} id={"contact"}>
                 <h2>{t("contacts:form.title")}</h2>
                 <form ref={formRef} onSubmit={e => onSubmit(e)} className={styles.form}>
                     <div className={styles.row}>
