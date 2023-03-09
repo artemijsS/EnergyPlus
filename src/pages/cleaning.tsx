@@ -17,6 +17,7 @@ export default function Cleaning() {
         <MainContainer
             title={t("cleaning:seo.title") || "EnergyPlus | Cleaning"}
             description={t("cleaning:seo.description") || "EnergyPlus Cleaning..."}
+            keywords={t("cleaning:seo.keywords") || "energyplus, solar panel cleaning, solar panels, carports"}
         >
             <div className={styles.mainBlock}>
                 <Image src={mainCleaning} alt={"mainHome"} className={styles.mainImage} priority={true} />
