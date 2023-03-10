@@ -1,12 +1,13 @@
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import MainContainer from "@/components/MainContainer"
-import {useTranslation} from "next-i18next";
+import ContactUs from "@/components/common/ContactUs"
+import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import styles from '@/styles/pagesStyles/carports.module.scss';
 
 import mainCarports from '@/assets/carports/mainCarports.png';
-import CPW1 from '@/assets/carports/CPW1.png';
+import { CPW1, CPU1, CPU2, CPE, CPW2, CPED, CPPT, CPPL, CPPY } from '@/assets/carports';
 
 
 
@@ -18,6 +19,7 @@ export default function Carports() {
         <MainContainer
             title={t("carports:seo.title") || "EnergyPlus | Carports"}
             description={t("carports:seo.description") || "EnergyPlus Carports..."}
+            keywords={t("carports:seo.keywords") || "energyplus, carport, carport buy, carport solar panel, carports"}
         >
             <div className={styles.mainBlock}>
                 <Image src={mainCarports} alt={"mainHome"} className={styles.mainImage} priority={true} />
@@ -54,6 +56,326 @@ export default function Carports() {
                     </div>
                 </div>
             </section>
+            <section className={styles.section}>
+                <h2 className={"wrapper"}>We are <span>installing & selling</span><br/>carports</h2>
+                <div className={styles.title}>
+                    <h3 className={"wrapper"}>Carport models for your home and office</h3>
+                </div>
+                <div className={styles.section + " wrapper " + styles.carports}>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPU1} alt={"CPU1"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPU-1</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPU2} alt={"CPU2"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPU-2</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPE} alt={"CPE"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPE</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPW1} alt={"CPW1"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPW-1</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPW2} alt={"CPW2"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPW-2</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPED} alt={"CPED"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPED</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.title}>
+                    <h3 className={"wrapper"}>Carport models for big parkings</h3>
+                </div>
+                <div className={styles.section + " wrapper " + styles.carports}>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPPT} alt={"CPPT"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPPT</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport}>
+                        <div className={styles.image}>
+                            <Image src={CPPL} alt={"CPPL"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPPL</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.carport + " " + styles.noMargin}>
+                        <div className={styles.image}>
+                            <Image src={CPPY} alt={"CPPY"} />
+                        </div>
+                        <div className={styles.info}>
+                            <h2>CPPY</h2>
+                            <div className={styles.blocks}>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Material</p>
+                                        <p>S350 high-strength structural steel</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Anti-corrosion coating:</p>
+                                        <p>Galvanised</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Warranty:</p>
+                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.block}>
+                                        <p>Additional options:</p>
+                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                    </div>
+                                    <div className={styles.block}>
+                                        <p>Price:</p>
+                                        <p>1200 $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <ContactUs />
         </MainContainer>
     )
 }

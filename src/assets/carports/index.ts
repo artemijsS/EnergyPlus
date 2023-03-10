@@ -1,0 +1,9 @@
+export {default as CPW1} from './CPW1.png';
+export {default as CPW2} from './CPW2.png';
+export {default as CPU1} from './CPU1.png';
+export {default as CPU2} from './CPU2.png';
+export {default as CPE} from './CPE.png';
+export {default as CPED} from './CPED.png';
+export {default as CPPT} from './CPPT.png';
+export {default as CPPL} from './CPPL.png';
+export {default as CPPY} from './CPPY.png';
