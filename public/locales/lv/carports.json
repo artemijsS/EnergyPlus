@@ -1,7 +1,35 @@
 {
   "seo": {
     "title": "EnergyPlus | Karporti",
-    "description": "EnergyPlus Karporti...",
+    "description": "EnergyPlus piedāvā inovatīvus un ilgtspējīgus karportus, kas iekļauj saules baterijas, lai ražotu tīru enerģiju. Mēs pārdodam un uzstādām karportus, kas ir izstrādāti, lai ražotu enerģiju, nodrošinot patstāvīgu aizsardzību jūsu transportlīdzeklim. Izvēlieties EnergyPlus, lai atrisinātu savu ekoloģisko enerģijas problēmu jau šodien.",
     "keywords": "energyplus, karports, karport pirkt, karport saules paneļi, karporti, saules paneļi"
+  },
+  "main": {
+    "h1": "Karporti Autostāvvietai<br/>un Birojiem",
+    "h4": "Racionāla stāvvietas izmantošana"
+  },
+  "info": {
+    "title": "Kas ir <span>“karports”</span> un kāpēc tas ir<br/>svarīgi <span>Jums?</span>",
+    "_1": "Karports ar saules paneļiem ir nojume, kas tiek izmantota, lai aizsargātu automašīnas no dažādiem laikapstākļiem un citiem ārējiem faktoriem. Tomēr atšķirībā no parastajām nojumēm uz jumta ir saules paneļi, kas ģenerē elektrību.",
+    "_2": "Karporti var nodrošināt rentablu elektroenerģijas ražošanas veidu. Izmantojot vietu virs autostāvvietas saules paneļiem, ir iespējams ražot enerģiju, neaizņemot papildu vietu uz zemes. Tas var būt īpaši noderīgi uzņēmumiem vai organizācijām ar ierobežotu vietu saules paneļu uzstādīšanai.",
+    "_3": "Karports palielina autostāvvietas lietotājiem ērtību – auto atrodas zem nojumes, glābj no lietus, sniega un citiem ārējiem faktoriem."
+  },
+  "carports": {
+    "title": "Mēs <span>uzstādām un pārdodam</span><br/>karportus",
+    "forHome": "Karportu modeļi jūsu mājām un birojam",
+    "forBig": "Karportu modeļi lielai autostāvvietai",
+    "material": "Materiāls",
+    "coating": "Pretkorozijas pārklājums:",
+    "warranty": "Garantija:",
+    "options": "Papildu iespējas:",
+    "price": "Cena:",
+    "from": "no",
+    "steel": "S350 augstas stiprības konstrukcijas tērauds",
+    "gal": "Cinkots",
+    "war": "15 gadi konstrukcijai un 5 gadi pārklājumam",
+    "optionsV1": "Invertora stiprinājums, Necaurlaidīgs jumts, Pamati, RAL krāsa, Moduļu izkārtojums, Izgriezums maskējošajā plāksnē ar uzrakstu - logotips",
+    "optionsV2": "Invertora stiprinājums, Necaurlaidīgs jumts, Pamati, RAL krāsa, Moduļu izkārtojums",
+    "optionsV3": "Invertora stiprinājums, Pamati, Moduļu izkārtojums, Logotipa uzstādīšana",
+    "request": "Pēc pieprasījuma"
   }
 }

@@ -24,23 +24,23 @@ export default function Cleaning() {
                 <div className={styles.textBlock}>
                     <div className={"wrapper"} style={{position: "relative"}}>
                         <div className={styles.text}>
-                            <h1>Solar Panel Cleaning<br/>Still Important</h1>
-                            <h4>We will also clean for you solar panels installed on your house roof</h4>
+                            <h1>{t("cleaning:main.h1")}</h1>
+                            <h4>{t("cleaning:main.h4")}</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <section className={"wrapper " + styles.section}>
-                <h2>Why solar panel cleaning is<br/><span>important?</span></h2>
+                <h2 dangerouslySetInnerHTML={{__html: t("cleaning:important.title")}} />
                 <div className={styles.important}>
                     <div className={styles.infoBlock}>
                         <div className={styles.block}>
-                            <h5>Lets see together, why cleaning is that important!</h5>
-                            <p>Want to know which panels we install? We install Recom (Puma) 410w 1812 x 1096.</p>
+                            <h5>{t("cleaning:important.first.h5")}</h5>
+                            <p>{t("cleaning:important.first.p")}</p>
                         </div>
                         <div className={styles.block}>
-                            <h5>Lets see together, why cleaning is that important!</h5>
-                            <p>Want to know which panels we install? We install Recom (Puma) 410w 1812 x 1096.</p>
+                            <h5>{t("cleaning:important.second.h5")}</h5>
+                            <p>{t("cleaning:important.second.p")}</p>
                         </div>
                     </div>
                     <div className={styles.videoBlock}>
@@ -55,40 +55,40 @@ export default function Cleaning() {
                 </div>
             </section>
             <section className={"wrapper " + styles.section}>
-                <h2>Solar panel cleaning process</h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("cleaning:process.title") }} />
                 <div className={styles.steps}>
                     <div className={styles.block}>
                         <div className={styles.step}>
                             <div className={styles.number}><span>1</span></div>
-                            <p>Planning (we need to know the complexity of the work - the area, height and angle of inclination on which the panels are installed)</p>
+                            <p>{t("cleaning:process._1")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>2</span></div>
-                            <p>Work price approval</p>
+                            <p>{t("cleaning:process._2")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>3</span></div>
-                            <p>Cleaning the panels from the top layer of water pollution and bringing down the temperature of the panels themselves</p>
+                            <p>{t("cleaning:process._3")}</p>
                         </div>
                     </div>
                     <div className={styles.block}>
                         <div className={styles.step}>
                             <div className={styles.number}><span>4</span></div>
-                            <p>Applying a special cleaner for solar panels</p>
+                            <p>{t("cleaning:process._4")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>5</span></div>
-                            <p>Cleaning solar panels</p>
+                            <p>{t("cleaning:process._5")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>6</span></div>
-                            <p>We remove the remaining moisture from the panels</p>
+                            <p>{t("cleaning:process._6")}</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section className={"wrapper " + styles.section}>
-                <h2>What do We use for cleaning<br/>purposes?</h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("cleaning:cleaner.title") }} />
                 <div className={styles.cleaner}>
                     <div className={styles.images}>
                         <div className={styles.block}>
@@ -96,13 +96,13 @@ export default function Cleaning() {
                             <div className={styles.second}/>
                         </div>
                         <div className={styles.main}>
-                            <div className={styles.price}>15 Eur / 5 Liters</div>
+                            <div className={styles.price}>{t("cleaning:cleaner.price")}</div>
                             <div className={styles.info}>
                                 <div className={styles.title}>PV Clean</div>
-                                <div className={styles.block}>Using “PV Clean” to clean solar panels can be an effective way to improve their performance by removing dirt, dust, and debris.</div>
-                                <div className={styles.block}>This method of high-pressure water cleaning can help to ensure that the panels are operating at their maximum efficiency.</div>
-                                <div className={styles.block}>However, it's important to take proper safety precautions and follow the manufacturer's guidelines.</div>
-                                <div className={styles.block}>If done correctly, cleaning your solar panels with Pw clean can be an excellent way to maintain their efficiency and prolong their lifespan.</div>
+                                <div className={styles.block}>{t("cleaning:cleaner._1")}</div>
+                                <div className={styles.block}>{t("cleaning:cleaner._2")}</div>
+                                <div className={styles.block}>{t("cleaning:cleaner._3")}</div>
+                                <div className={styles.block}>{t("cleaning:cleaner._4")}</div>
                             </div>
                         </div>
                     </div>

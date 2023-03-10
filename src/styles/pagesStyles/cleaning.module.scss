@@ -210,6 +210,16 @@
       margin-top: unset;
     }
     .infoBlock {
+      flex: 0.6;
+      h5, p {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      h5 {
+        flex: 0.8;
+        flex-direction: column-reverse;
+      }
       &:after {
         width: 35px;
         height: 35px;
@@ -450,7 +460,7 @@
         }
 
         .block {
-          height: 13%;
+          height: 15%;
           background-color: var(--cl-bg);
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
           display: flex;

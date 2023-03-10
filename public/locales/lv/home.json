@@ -1,7 +1,43 @@
 {
   "seo": {
     "title": "EnergyPlus",
-    "description": "EnergyPlus...",
+    "description": "Samaziniet savu oglekļa pēdas nospiedumu un ietaupiet naudu savos enerģijas rēķinos ar EnergyPlus! Mēs specializējamies saules paneļu un karportu uzstādīšanā, nodrošinot ilgtspējīgu un inovatīvu veidu, kā nodrošināt jūsu māju vai biznesu ar enerģiju. Mūsu ekspertu komanda piedāvā arī saules paneļu tīrīšanas pakalpojumus, lai nodrošinātu maksimālu efektivitāti. Izvēlieties EnergyPlus, lai atrisinātu savu ekoloģisko enerģijas problēmu jau šodien.",
     "keywords": "energyplus, saules paneļi, karports, saules paneļu tīrīšana, karporti"
+  },
+  "main": {
+    "h1": "Gaišāka nākotne,<br/>kuru nodrošina saule.",
+    "h4": "Viena no perspektīvākajām korporācijām saules enerģijas jomā"
+  },
+  "info": {
+    "first": {
+      "h4": "Kāpēc tieši mēs?",
+      "p": "Mūsdienīga un ātra pieeja, kas vērsta uz jūsu rezultātiem, un elastība, meklējot pareizos risinājumus.",
+      "h6": "Dzīve ir labāka ar EnergyPlus."
+    },
+    "second": {
+      "h4": "Atbalsts un garantija",
+      "p": "Mēs sniedzam garantiju un atbalstu mūsu precēm un pakalpojumiem.",
+      "h6": "Mēs vienmēr esam priecīgi palīdzēt."
+    },
+    "third": {
+      "h4": "Darbs",
+      "p": "Mēs rūpīgi pievēršamies jūsu problēmas risinājumam un esam gatavi jums palīdzēt katrā projekta posmā ar lēmumu pieņemšanu.",
+      "h6": "Mēs pabeidzam darbu līdz galam."
+    }
+  },
+  "offer": {
+    "title": "Ko Mēs Piedāvājam <span>Jums?</span>",
+    "first": {
+      "h5": "Saules paneļu plānošana un uzstādīšana",
+      "p": "Izplānosim un uzstādīsim labākos saules paneļus atbilstoši Jūsu vajadzībām!"
+    },
+    "second": {
+      "h5": "Saules paneļu tīrīšana",
+      "p": "Piedāvājam saules paneļu tīrīšanu lielākai elektroenerģijas ražošanai!"
+    },
+    "third": {
+      "h5": "Karportu izgatavošana un uzstādīšana",
+      "p": "Karports ir lielisks risinājums, kā optimizēt savu stāvvietu!"
+    }
   }
 }

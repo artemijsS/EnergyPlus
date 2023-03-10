@@ -1,7 +1,35 @@
 {
   "seo": {
     "title": "EnergyPlus | Carports",
-    "description": "EnergyPlus Carports...",
+    "description": "EnergyPlus provides innovative and sustainable carports that incorporate solar panels to generate clean energy. We sell and install carports that are designed to harness the power of the sun while providing shelter for your vehicle. Choose EnergyPlus for your eco-friendly energy solutions today.",
     "keywords": "energyplus, carport, carport buy, carport solar panel, carports, solar panels"
+  },
+  "main": {
+    "h1": "Carports For Parking<br/>Slots & Offices",
+    "h4": "Rational use of parking space"
+  },
+  "info": {
+    "title": "What is <span>“carport”</span> and why it is<br/>important for <span>You?</span>",
+    "_1": "A carport with solar panels is a canopy that is used to protect cars from various weather conditions and other external factors. However, unlike conventional canopies, they have solar panels on the roof that generate electricity.",
+    "_2": "Carports can provide a cost-effective way to generate electricity. By using the space above a carport for solar panels, it is possible to generate energy without taking up additional space on the ground. This can be particularly useful for business or organizations with limited space for solar panel installations.",
+    "_3": "Carports also increase the convenience for parking users - the car is under a canopy, saves from rain, snow and other external factors."
+  },
+  "carports": {
+    "title": "We are <span>installing & selling</span><br/>carports",
+    "forHome": "Carport models for your home and office",
+    "forBig": "Carport models for big parking",
+    "material": "Material",
+    "coating": "Anti-corrosion coating:",
+    "warranty": "Warranty:",
+    "options": "Additional options:",
+    "price": "Price:",
+    "from": "from",
+    "steel": "S350 high-strength structural steel",
+    "gal": "Galvanised",
+    "war": "15 years for the structure and 5 years for the coating",
+    "optionsV1": "Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo",
+    "optionsV2": "Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout",
+    "optionsV3": "Inverter mount, Foundations, Modular layout, Mounting of inscription-logo",
+    "request": "On request"
   }
 }

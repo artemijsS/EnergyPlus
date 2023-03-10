@@ -25,34 +25,34 @@ export default function SolarPanels() {
                 <div className={styles.textBlock}>
                     <div className={"wrapper"} style={{position: "relative"}}>
                         <div className={styles.text}>
-                            <h1>Lets Turn the Sunlight<br/>Into the Energy</h1>
-                            <h4>Stay sunny with bringing the economy in to your building</h4>
+                            <h1 dangerouslySetInnerHTML={{ __html: t("solar-panels:main.h1") }} />
+                            <h4>{t("solar-panels:main.h4")}</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <section className={"wrapper " + styles.section}>
-                <h2>What we offer for <span>You?</span></h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("solar-panels:offer.title") }} />
                 <div className={styles.offer}>
                     <div className={styles.block}>
-                        <h4>We sell & install</h4>
-                        <p>Save on bills and reduce your carbon footprint. Our team sells and installs solar panels for homes and businesses. Enjoy renewable energy today.</p>
-                        <h6>Contact us to learn more.</h6>
+                        <h4>{t("solar-panels:offer.first.h4")}</h4>
+                        <p>{t("solar-panels:offer.first.p")}</p>
+                        <h6>{t("solar-panels:offer.first.h6")}</h6>
                     </div>
                     <div className={styles.block}>
-                        <h4>We are professionals in field of Solar Energy</h4>
-                        <p>It is important to consult with a professional installer to determine the best location and size of panels for maximum efficiency.</p>
-                        <h6>And We are here to help You!</h6>
+                        <h4>{t("solar-panels:offer.second.h4")}</h4>
+                        <p>{t("solar-panels:offer.second.p")}</p>
+                        <h6>{t("solar-panels:offer.second.h6")}</h6>
                     </div>
                     <div className={styles.block}>
-                        <h4>Which panels we are installing?</h4>
-                        <p>Want to know which panels we install? We install Recom (Puma) 410w 1812 x 1096. high-quality and efficient solar panel options for both residential and commercial properties.</p>
-                        <h6>And We are here to help You!</h6>
+                        <h4>{t("solar-panels:offer.third.h4")}</h4>
+                        <p>{t("solar-panels:offer.third.p")}</p>
+                        <h6>{t("solar-panels:offer.third.h6")}</h6>
                     </div>
                 </div>
             </section>
             <section className={"wrapper " + styles.section}>
-                <h2>Make your sunny dreams come true<br/>with <span>EnergyPlus</span></h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("solar-panels:table.title") }}/>
                 <div className={styles.table}>
                     <div className={styles.line}>
                         <div className={styles.block}>
@@ -66,37 +66,37 @@ export default function SolarPanels() {
                                     <path d="M17.6831 72.8418C17.6831 69.39 20.4813 66.5918 23.9331 66.5918C27.3849 66.5918 30.1831 69.39 30.1831 72.8418V82.0918H17.6831V72.8418Z" stroke="#034177" strokeWidth="2.5"/>
                                 </svg>
                                 <div className={styles.pack}>S</div>
-                                <p>Perfect solution for buildings with consumption over</p>
-                                <p>300+ kWh/month</p>
+                                <p>{t("solar-panels:table.main.cons")}</p>
+                                <p>300+ kWh/{t("solar-panels:table.main.month")}</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Minimum required free space on the roof</p>
+                                <p>{t("solar-panels:table.space")}</p>
                                 <p>25 m2</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Capacity of solar panel solution</p>
+                                <p>{t("solar-panels:table.capacity")}</p>
                                 <p>4,9 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Financial benefit over a period of 25 years</p>
+                                <p>{t("solar-panels:table.financial")}</p>
                                 <p>29 399 €</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Annual electricity production</p>
+                                <p>{t("solar-panels:table.annual")}</p>
                                 <p>&gt;4 420 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Number of solar panels included</p>
+                                <p>{t("solar-panels:table.number")}</p>
                                 <p>12</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Price of the solution</p>
+                                <p>{t("solar-panels:table.price")}</p>
                                 <p>6 900 €</p>
                             </div>
                         </div>
@@ -115,37 +115,37 @@ export default function SolarPanels() {
                                     <path d="M55.6875 74.0234C55.6875 71.2318 57.9506 68.9688 60.7422 68.9688C63.5338 68.9688 65.7969 71.2318 65.7969 74.0234V84.9375H55.6875V74.0234Z" stroke="white" strokeWidth="2"/>
                                 </svg>
                                 <div className={styles.pack}>M</div>
-                                <p>Perfect solution for buildings with consumption over</p>
-                                <p>500+ kWh/month</p>
+                                <p>{t("solar-panels:table.main.cons")}</p>
+                                <p>500+ kWh/{t("solar-panels:table.main.month")}</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Minimum required free space on the roof</p>
+                                <p>{t("solar-panels:table.space")}</p>
                                 <p>36 m2</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Capacity of solar panel solution</p>
+                                <p>{t("solar-panels:table.capacity")}</p>
                                 <p>7,4 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Financial benefit over a period of 25 years</p>
+                                <p>{t("solar-panels:table.financial")}</p>
                                 <p>45 096 €</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Annual electricity production</p>
+                                <p>{t("solar-panels:table.annual")}</p>
                                 <p>&gt;6 640 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Number of solar panels included</p>
+                                <p>{t("solar-panels:table.number")}</p>
                                 <p>18</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Price of the solution</p>
+                                <p>{t("solar-panels:table.price")}</p>
                                 <p>9 400 €</p>
                             </div>
                         </div>
@@ -160,37 +160,37 @@ export default function SolarPanels() {
                                     <path d="M50 56.1211C51.4953 56.1211 52.9571 55.6777 54.2004 54.8469C55.4437 54.0162 56.4128 52.8354 56.985 51.4538C57.5573 50.0723 57.707 48.5522 57.4153 47.0856C57.1235 45.619 56.4035 44.2718 55.3461 43.2144C54.2887 42.1571 52.9416 41.437 51.475 41.1453C50.0084 40.8536 48.4882 41.0033 47.1067 41.5755C45.7252 42.1478 44.5444 43.1168 43.7136 44.3601C42.8829 45.6035 42.4395 47.0652 42.4395 48.5606C42.4415 50.5651 43.2387 52.487 44.6562 53.9044C46.0736 55.3218 47.9955 56.119 50 56.1211ZM44.6836 49.6289H48.9297V53.875C47.8833 53.6622 46.9227 53.146 46.1676 52.391C45.4126 51.6359 44.8964 50.6753 44.6836 49.6289ZM51.0684 53.875V49.6289H55.3144C55.1016 50.6753 54.5855 51.6359 53.8304 52.391C53.0754 53.146 52.1148 53.6622 51.0684 53.875ZM55.3144 47.4981H51.0684V43.2441C52.1157 43.4578 53.0769 43.9751 53.832 44.7316C54.5872 45.4882 55.1027 46.4503 55.3144 47.4981ZM48.9297 43.252V47.4981H44.6836C44.8953 46.4503 45.4109 45.4882 46.166 44.7316C46.9211 43.9751 47.8824 43.4578 48.9297 43.2441V43.252Z" fill="white"/>
                                 </svg>
                                 <div className={styles.pack}>L</div>
-                                <p>Perfect solution for buildings with consumption over</p>
-                                <p>700+ kWh/month</p>
+                                <p>{t("solar-panels:table.main.cons")}</p>
+                                <p>700+ kWh/{t("solar-panels:table.main.month")}</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Minimum required free space on the roof</p>
+                                <p>{t("solar-panels:table.space")}</p>
                                 <p>48 m2</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Capacity of solar panel solution</p>
+                                <p>{t("solar-panels:table.capacity")}</p>
                                 <p>9,8 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Financial benefit over a period of 25 years</p>
+                                <p>{t("solar-panels:table.financial")}</p>
                                 <p>61 218 €</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Annual electricity production</p>
+                                <p>{t("solar-panels:table.annual")}</p>
                                 <p>&gt;8 856 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Number of solar panels included</p>
+                                <p>{t("solar-panels:table.number")}</p>
                                 <p>24</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Price of the solution</p>
+                                <p>{t("solar-panels:table.price")}</p>
                                 <p>11 500 €</p>
                             </div>
                         </div>
@@ -205,37 +205,37 @@ export default function SolarPanels() {
                                     <path d="M57.6797 65.6699C57.5394 65.6699 57.4005 65.6976 57.2708 65.7512C57.1412 65.8049 57.0234 65.8836 56.9242 65.9828C56.825 66.082 56.7463 66.1998 56.6927 66.3294C56.639 66.4591 56.6113 66.598 56.6113 66.7383V83.2266C56.6113 83.3669 56.639 83.5058 56.6927 83.6354C56.7463 83.765 56.825 83.8828 56.9242 83.982C57.0234 84.0812 57.1412 84.1599 57.2708 84.2136C57.4005 84.2673 57.5394 84.2949 57.6797 84.2949H74.166C74.3065 84.2952 74.4456 84.2677 74.5755 84.2142C74.7053 84.1606 74.8233 84.0819 74.9227 83.9827C75.0221 83.8835 75.101 83.7656 75.1548 83.6359C75.2086 83.5061 75.2363 83.367 75.2363 83.2266V66.7383C75.2363 66.5978 75.2086 66.4587 75.1548 66.329C75.101 66.1992 75.0221 66.0814 74.9227 65.9821C74.8233 65.8829 74.7053 65.8043 74.5755 65.7507C74.4456 65.6971 74.3065 65.6697 74.166 65.6699H57.6797ZM64.8535 67.8086V73.9141H58.75V67.8086H64.8535ZM58.75 76.0527H64.8535V82.1563H58.75V76.0527ZM66.9922 82.1563V76.0527H73.0977V82.1563H66.9922ZM73.0977 73.9141H66.9922V67.8086H73.0977V73.9141Z" fill="white"/>
                                 </svg>
                                 <div className={styles.pack}>XL</div>
-                                <p>Perfect solution for buildings with consumption over</p>
-                                <p>1000+ kWh/month</p>
+                                <p>{t("solar-panels:table.main.cons")}</p>
+                                <p>1000+ kWh/{t("solar-panels:table.main.month")}</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Minimum required free space on the roof</p>
+                                <p>{t("solar-panels:table.space")}</p>
                                 <p>60 m2</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Capacity of solar panel solution</p>
+                                <p>{t("solar-panels:table.capacity")}</p>
                                 <p>12,3 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Financial benefit over a period of 25 years</p>
+                                <p>{t("solar-panels:table.financial")}</p>
                                 <p>89 269 €</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Annual electricity production</p>
+                                <p>{t("solar-panels:table.annual")}</p>
                                 <p>&gt;11 070 kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Number of solar panels included</p>
+                                <p>{t("solar-panels:table.number")}</p>
                                 <p>30</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Price of the solution</p>
+                                <p>{t("solar-panels:table.price")}</p>
                                 <p>12 900 €</p>
                             </div>
                         </div>
@@ -258,62 +258,62 @@ export default function SolarPanels() {
                                     <path d="M59.0332 69.3359H66.1504C66.2909 69.3359 66.4299 69.3082 66.5597 69.2544C66.6894 69.2006 66.8073 69.1217 66.9065 69.0223C67.0058 68.9229 67.0844 68.8049 67.138 68.6751C67.1916 68.5452 67.219 68.4061 67.2188 68.2656V61.1445C67.2188 61.0042 67.1911 60.8653 67.1374 60.7357C67.0837 60.6061 67.005 60.4883 66.9058 60.3891C66.8066 60.2899 66.6889 60.2112 66.5592 60.1575C66.4296 60.1038 66.2907 60.0762 66.1504 60.0762H59.0332C58.8927 60.0759 58.7536 60.1034 58.6238 60.1569C58.4939 60.2105 58.3759 60.2892 58.2765 60.3884C58.1771 60.4876 58.0982 60.6055 58.0444 60.7352C57.9906 60.865 57.9629 61.0041 57.9629 61.1445V68.2617C57.9624 68.4026 57.9897 68.5422 58.0433 68.6725C58.0968 68.8028 58.1756 68.9213 58.275 69.0211C58.3744 69.1209 58.4926 69.2001 58.6227 69.2541C58.7528 69.3081 58.8923 69.3359 59.0332 69.3359ZM60.1016 62.2188H65.0801V67.1875H60.1016V62.2188Z" fill="white"/>
                                 </svg>
                                 <div className={styles.pack}>XXL+</div>
-                                <p>Perfect solution for buildings with consumption over</p>
-                                <p>5000+ kWh/month</p>
+                                <p>{t("solar-panels:table.main.cons")}</p>
+                                <p>5000+ kWh/{t("solar-panels:table.main.month")}</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Minimum required free space on the roof</p>
+                                <p>{t("solar-panels:table.space")}</p>
                                 <p>300+ m2</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Capacity of solar panel solution</p>
+                                <p>{t("solar-panels:table.capacity")}</p>
                                 <p>61,5+ kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Financial benefit over a period of 25 years</p>
+                                <p>{t("solar-panels:table.financial")}</p>
                                 <p>---------</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Annual electricity production</p>
+                                <p>{t("solar-panels:table.annual")}</p>
                                 <p>&gt;55 000+ kWp</p>
                             </div>
                         </div>
                         <div className={styles.block}>
                             <div className={styles.excel}>
-                                <p>Number of solar panels included</p>
+                                <p>{t("solar-panels:table.number")}</p>
                                 <p>150+</p>
                             </div>
                             <div className={styles.excel}>
-                                <p>Price of the solution</p>
-                                <p>On request</p>
+                                <p>{t("solar-panels:table.price")}</p>
+                                <p>{t("solar-panels:table.request")}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section className={"wrapper " + styles.section}>
-                <h2>Why It Is Important For <span>You?</span></h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("solar-panels:important.title") }} />
                 <div className={styles.important}>
                     <div className={styles.steps}>
                         <div className={styles.step}>
                             <div className={styles.number}><span>1</span></div>
-                            <p>Reduce energy bills: Solar panels generate electricity from sunlight, reducing your reliance on the grid and your energy bills.</p>
+                            <p>{t("solar-panels:important._1")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>2</span></div>
-                            <p>Increase home value: Solar panels can increase the value of your home as they are seen as a desirable feature by many buyers.</p>
+                            <p>{t("solar-panels:important._2")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>3</span></div>
-                            <p>Reduce carbon footprint: Solar energy is clean and renewable, meaning you can reduce your carbon footprint and help the environment.</p>
+                            <p>{t("solar-panels:important._3")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>4</span></div>
-                            <p>Government incentives: Many governments offer incentives such as tax credits or rebates to encourage the installation of solar panels, making it an even more attractive option.</p>
+                            <p>{t("solar-panels:important._4")}</p>
                         </div>
                     </div>
                     <div className={styles.image}>

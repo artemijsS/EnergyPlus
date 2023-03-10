@@ -22,8 +22,8 @@ export default function Home() {
                 <div className={styles.textBlock}>
                     <div className={"wrapper"}>
                         <div className={styles.text}>
-                            <h1>A Brighter Future,<br/>Powered By The Sun.</h1>
-                            <h4>One of the most perspective corporations in field of Solar Energy</h4>
+                            <h1 dangerouslySetInnerHTML={{ __html: t("home:main.h1") }}/>
+                            <h4>{t("home:main.h4")}</h4>
                         </div>
                     </div>
                 </div>
@@ -32,47 +32,47 @@ export default function Home() {
                 <div className={styles.blocks}>
                     <div className={styles.block}>
                         <div className={styles.blockText}>
-                            <h4>Fast installation of Your future economy</h4>
-                            <p>Experienced team of professionals will help You to start your economy journey with the Solar Energy. </p>
-                            <h6>Life is Better with a Energy Plus.</h6>
+                            <h4>{t("home:info.first.h4")}</h4>
+                            <p>{t("home:info.first.p")}</p>
+                            <h6>{t("home:info.first.h6")}</h6>
                         </div>
                     </div>
                     <div className={styles.block}>
                         <div className={styles.blockText}>
-                            <h4>Fast installation of Your future economy</h4>
-                            <p>Experienced team of professionals will help You to start your economy journey with the Solar Energy. </p>
-                            <h6>Life is Better with a Energy Plus.</h6>
+                            <h4>{t("home:info.second.h4")}</h4>
+                            <p>{t("home:info.second.p")}</p>
+                            <h6>{t("home:info.second.h6")}</h6>
                         </div>
                     </div>
                     <div className={styles.break}/>
                     <div className={styles.block}>
                         <div className={styles.blockText}>
-                            <h4>Fast installation of Your future economy</h4>
-                            <p>Experienced team of professionals will help You to start your economy journey with the Solar Energy. </p>
-                            <h6>Life is Better with a Energy Plus.</h6>
+                            <h4>{t("home:info.third.h4")}</h4>
+                            <p>{t("home:info.third.p")}</p>
+                            <h6>{t("home:info.third.h6")}</h6>
                         </div>
                     </div>
                 </div>
             </section>
             <section className={"wrapper " + styles.offer}>
-                <h2>What We Are Offering<br/>To You?</h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("home:offer.title") }} />
                 <div className={styles.offerBlocks}>
                     <div className={styles.block}>
                         <div className={styles.textBlock}>
-                            <h5>Solar panel planning &<br/>installation</h5>
-                            <p>We will bring & install the best solar pannels special for you in 1 week! </p>
+                            <h5>{t("home:offer.first.h5")}</h5>
+                            <p>{t("home:offer.first.p")}</p>
                         </div>
                     </div>
                     <div className={styles.block}>
                         <div className={styles.textBlock}>
-                            <h5>Solar panel cleaning &<br/>transportation</h5>
-                            <p>We will bring & install the best solar pannels special for you in 1 week! </p>
+                            <h5>{t("home:offer.second.h5")}</h5>
+                            <p>{t("home:offer.second.p")}</p>
                         </div>
                     </div>
                     <div className={styles.block}>
                         <div className={styles.textBlock}>
-                            <h5>Carports manufacturing &<br/>installation</h5>
-                            <p>We will bring & install the best solar pannels special for you in 1 week! </p>
+                            <h5>{t("home:offer.third.h5")}</h5>
+                            <p>{t("home:offer.third.p")}</p>
                         </div>
                     </div>
                 </div>

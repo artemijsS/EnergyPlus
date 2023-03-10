@@ -3,5 +3,48 @@
     "title": "EnergyPlus | Solar Panels",
     "description": "EnergyPlus Solar Panels...",
     "keywords": "energyplus, solar panels, solar panels buy, solar panel cleaning, carports"
+  },
+  "main": {
+    "h1": "Solar Panel<br/>Installation Services",
+    "h4": "Cut Energy Costs with Solar Panels"
+  },
+  "offer": {
+    "title": "What we offer for <span>You?</span>",
+    "first": {
+      "h4": "We sell & install",
+      "p": "Save on bills and reduce your carbon footprint. Our team sells and installs solar panels for homes and businesses. Enjoy renewable energy today.",
+      "h6": "Contact us to learn more"
+    },
+    "second": {
+      "h4": "We are professionals in field of Solar Energy",
+      "p": "It is important to consult with a professional installer to determine the best location and size of panels for maximum efficiency.",
+      "h6": "And We are here to help You!"
+    },
+    "third": {
+      "h4": "Which panels?",
+      "p": "We will help you choose the right solar panels and inverter for your needs. These are mainly panels from 400 to 550 watts.",
+      "h6": "We are waiting for your wishes!"
+    }
+  },
+  "table": {
+    "title": "Make your sunny dreams come true<br/>with <span>EnergyPlus</span>",
+    "main": {
+      "cons": "Perfect solution for buildings with consumption over",
+      "month": "month"
+    },
+    "space": "Minimum required free space on the roof",
+    "capacity": "Capacity of solar panel solution",
+    "financial": "Financial benefit over a period of 25 years",
+    "annual": "Annual electricity production",
+    "number": "Number of solar panels included",
+    "price": "Price of the solution",
+    "request": "On request"
+  },
+  "important": {
+    "title": "Why It Is Important For <span>You?</span>",
+    "_1": "Reduce energy bills: Solar panels generate electricity from sunlight, reducing your reliance on the grid and your energy bills.",
+    "_2": "Increase home value: Solar panels can increase the value of your home as they are seen as a desirable feature by many buyers.",
+    "_3": "Reduce carbon footprint: Solar energy is clean and renewable, meaning you can reduce your carbon footprint and help the environment.",
+    "_4": "Government incentives: Many governments offer incentives such as tax credits or rebates to encourage the installation of solar panels, making it an even more attractive option."
   }
 }

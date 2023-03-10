@@ -1,7 +1,43 @@
 {
   "seo": {
     "title": "EnergyPlus",
-    "description": "EnergyPlus...",
+    "description": "Reduce your carbon footprint and save money on your energy bills with EnergyPlus! We specialize in the installation of solar panels and carports that incorporate solar panels, providing a sustainable and innovative way to power your home or business. Our expert team also offers solar panel cleaning services to ensure maximum efficiency. Choose EnergyPlus for your eco-friendly energy solutions today.",
     "keywords": "energyplus, solar panels, carport, solar panel cleaning, carports"
+  },
+  "main": {
+    "h1": "A Brighter Future,<br/>Powered By The Sun.",
+    "h4": "One of the most perspective corporations in field of Solar Energy"
+  },
+  "info": {
+    "first": {
+      "h4": "Why us?",
+      "p": "A modern and fast approach aimed at your results, and flexibility in finding the right solutions.",
+      "h6": "Life is Better with a EnergyPlus."
+    },
+    "second": {
+      "h4": "Support & Warranty",
+      "p": "We provide warranty and support for our goods and services.",
+      "h6": "EnergyPlus is always happy to help."
+    },
+    "third": {
+      "h4": "Work",
+      "p": "We carefully approach the solution of your problem, and are ready to help you at every stage of the project with decision-making.",
+      "h6": "We bring the work to an end."
+    }
+  },
+  "offer": {
+    "title": "What We Offer For <span>You?</span>",
+    "first": {
+      "h5": "Solar panel planning & installation",
+      "p": "We will plan and install the best solar panels according to your needs!"
+    },
+    "second": {
+      "h5": "Solar panel cleaning",
+      "p": "We offer cleaning of solar panels for greater power generation!"
+    },
+    "third": {
+      "h5": "Carports manufacturing & installation",
+      "p": "Carport is a great solution how to optimize your parking!"
+    }
   }
 }

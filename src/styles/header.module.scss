@@ -18,6 +18,10 @@
   .logo svg {
     display: block;
     height: 85px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .nav {

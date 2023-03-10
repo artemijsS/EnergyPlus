@@ -26,27 +26,27 @@ export default function Carports() {
                 <div className={styles.textBlock}>
                     <div className={"wrapper"} style={{position: "relative"}}>
                         <div className={styles.text}>
-                            <h1>Car Ports For Parking<br/>Slots & Offices</h1>
-                            <h4>The charge can be useful even when You are on site work</h4>
+                            <h1 dangerouslySetInnerHTML={{__html: t("carports:main.h1")}} />
+                            <h4>{t("carports:main.h4")}</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <section className={"wrapper overFlowHidden " + styles.section}>
-                <h2>What is <span>“carport”</span> and why it is<br/>important for <span>You?</span></h2>
+                <h2 dangerouslySetInnerHTML={{ __html: t("carports:info.title") }}/>
                 <div className={styles.important + " " + styles.carportPage}>
                     <div className={styles.steps}>
                         <div className={styles.step}>
                             <div className={styles.number}><span>1</span></div>
-                            <p>They can provide a source of renewable energy for households or businesses. By generating electricity from the sun, solar panel carports can help reduce dependence on fossil fuels and lower carbon emissions.</p>
+                            <p>{t("carports:info._1")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>2</span></div>
-                            <p>Solar panel carports can provide a cost-effective way to generate electricity. By using the space above a carport for solar panels, it is possible to generate energy without taking up additional space on the ground. This can be particularly useful for businesses or organizations with limited space for solar panel installations.</p>
+                            <p>{t("carports:info._2")}</p>
                         </div>
                         <div className={styles.step}>
                             <div className={styles.number}><span>3</span></div>
-                            <p>Solar panel carports can also help protect vehicles from the elements, just like a regular carport. In addition, the shade provided by the solar panels can help keep the interior of the car cooler, reducing the need for air conditioning and saving on fuel costs.</p>
+                            <p>{t("carports:info._3")}</p>
                         </div>
                     </div>
                     <div className={styles.carport}>
@@ -57,9 +57,9 @@ export default function Carports() {
                 </div>
             </section>
             <section className={styles.section}>
-                <h2 className={"wrapper"}>We are <span>installing & selling</span><br/>carports</h2>
+                <h2 className={"wrapper"} dangerouslySetInnerHTML={{ __html: t("carports:carports.title") }} />
                 <div className={styles.title}>
-                    <h3 className={"wrapper"}>Carport models for your home and office</h3>
+                    <h3 className={"wrapper"}>{t("carports:carports.forHome")}</h3>
                 </div>
                 <div className={styles.section + " wrapper " + styles.carports}>
                     <div className={styles.carport}>
@@ -71,26 +71,26 @@ export default function Carports() {
                             <div className={styles.blocks}>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                        <p>{t("carports:carports.material")}</p>
+                                        <p>{t("carports:carports.steel")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
+                                        <p>{t("carports:carports.coating")}</p>
+                                        <p>{t("carports:carports.gal")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                        <p>{t("carports:carports.warranty")}</p>
+                                        <p>{t("carports:carports.war")}</p>
                                     </div>
                                 </div>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                        <p>{t("carports:carports.options")}</p>
+                                        <p>{t("carports:carports.optionsV1")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                        <p>{t("carports:carports.price")}</p>
+                                        <p>{t("carports:carports.from")} 1200 €</p>
                                     </div>
                                 </div>
                             </div>
@@ -105,26 +105,26 @@ export default function Carports() {
                             <div className={styles.blocks}>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                        <p>{t("carports:carports.material")}</p>
+                                        <p>{t("carports:carports.steel")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
+                                        <p>{t("carports:carports.coating")}</p>
+                                        <p>{t("carports:carports.gal")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                        <p>{t("carports:carports.warranty")}</p>
+                                        <p>{t("carports:carports.war")}</p>
                                     </div>
                                 </div>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                        <p>{t("carports:carports.options")}</p>
+                                        <p>{t("carports:carports.optionsV1")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                        <p>{t("carports:carports.price")}</p>
+                                        <p>{t("carports:carports.from")} 2800 €</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,26 +139,26 @@ export default function Carports() {
                             <div className={styles.blocks}>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                        <p>{t("carports:carports.material")}</p>
+                                        <p>{t("carports:carports.steel")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
+                                        <p>{t("carports:carports.coating")}</p>
+                                        <p>{t("carports:carports.gal")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                        <p>{t("carports:carports.warranty")}</p>
+                                        <p>{t("carports:carports.war")}</p>
                                     </div>
                                 </div>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                        <p>{t("carports:carports.options")}</p>
+                                        <p>{t("carports:carports.optionsV2")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                        <p>{t("carports:carports.price")}</p>
+                                        <p>{t("carports:carports.from")} 1150 €</p>
                                     </div>
                                 </div>
                             </div>
@@ -171,28 +171,30 @@ export default function Carports() {
                         <div className={styles.info}>
                             <h2>CPW-1</h2>
                             <div className={styles.blocks}>
-                                <div className={styles.line}>
-                                    <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                <div className={styles.blocks}>
+                                    <div className={styles.line}>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.material")}</p>
+                                            <p>{t("carports:carports.steel")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.coating")}</p>
+                                            <p>{t("carports:carports.gal")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.warranty")}</p>
+                                            <p>{t("carports:carports.war")}</p>
+                                        </div>
                                     </div>
-                                    <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
-                                    </div>
-                                    <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
-                                    </div>
-                                </div>
-                                <div className={styles.line}>
-                                    <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
-                                    </div>
-                                    <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                    <div className={styles.line}>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.options")}</p>
+                                            <p>{t("carports:carports.optionsV1")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.price")}</p>
+                                            <p>{t("carports:carports.from")} 1500 €</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -205,28 +207,30 @@ export default function Carports() {
                         <div className={styles.info}>
                             <h2>CPW-2</h2>
                             <div className={styles.blocks}>
-                                <div className={styles.line}>
-                                    <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                <div className={styles.blocks}>
+                                    <div className={styles.line}>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.material")}</p>
+                                            <p>{t("carports:carports.steel")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.coating")}</p>
+                                            <p>{t("carports:carports.gal")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.warranty")}</p>
+                                            <p>{t("carports:carports.war")}</p>
+                                        </div>
                                     </div>
-                                    <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
-                                    </div>
-                                    <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
-                                    </div>
-                                </div>
-                                <div className={styles.line}>
-                                    <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
-                                    </div>
-                                    <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                    <div className={styles.line}>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.options")}</p>
+                                            <p>{t("carports:carports.optionsV1")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.price")}</p>
+                                            <p>{t("carports:carports.from")} 2650 €</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -239,28 +243,30 @@ export default function Carports() {
                         <div className={styles.info}>
                             <h2>CPED</h2>
                             <div className={styles.blocks}>
-                                <div className={styles.line}>
-                                    <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                <div className={styles.blocks}>
+                                    <div className={styles.line}>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.material")}</p>
+                                            <p>{t("carports:carports.steel")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.coating")}</p>
+                                            <p>{t("carports:carports.gal")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.warranty")}</p>
+                                            <p>{t("carports:carports.war")}</p>
+                                        </div>
                                     </div>
-                                    <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
-                                    </div>
-                                    <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
-                                    </div>
-                                </div>
-                                <div className={styles.line}>
-                                    <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
-                                    </div>
-                                    <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                    <div className={styles.line}>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.options")}</p>
+                                            <p>{t("carports:carports.optionsV3")}</p>
+                                        </div>
+                                        <div className={styles.block}>
+                                            <p>{t("carports:carports.price")}</p>
+                                            <p>{t("carports:carports.from")} 6420 €</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -268,7 +274,7 @@ export default function Carports() {
                     </div>
                 </div>
                 <div className={styles.title}>
-                    <h3 className={"wrapper"}>Carport models for big parkings</h3>
+                    <h3 className={"wrapper"}>{t("carports:carports.forBig")}</h3>
                 </div>
                 <div className={styles.section + " wrapper " + styles.carports}>
                     <div className={styles.carport}>
@@ -280,26 +286,26 @@ export default function Carports() {
                             <div className={styles.blocks}>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                        <p>{t("carports:carports.material")}</p>
+                                        <p>{t("carports:carports.steel")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
+                                        <p>{t("carports:carports.coating")}</p>
+                                        <p>{t("carports:carports.gal")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                        <p>{t("carports:carports.warranty")}</p>
+                                        <p>{t("carports:carports.war")}</p>
                                     </div>
                                 </div>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                        <p>{t("carports:carports.options")}</p>
+                                        <p>{t("carports:carports.optionsV1")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                        <p>{t("carports:carports.price")}</p>
+                                        <p>{t("carports:carports.request")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -314,26 +320,26 @@ export default function Carports() {
                             <div className={styles.blocks}>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                        <p>{t("carports:carports.material")}</p>
+                                        <p>{t("carports:carports.steel")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
+                                        <p>{t("carports:carports.coating")}</p>
+                                        <p>{t("carports:carports.gal")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                        <p>{t("carports:carports.warranty")}</p>
+                                        <p>{t("carports:carports.war")}</p>
                                     </div>
                                 </div>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                        <p>{t("carports:carports.options")}</p>
+                                        <p>{t("carports:carports.optionsV1")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                        <p>{t("carports:carports.price")}</p>
+                                        <p>{t("carports:carports.request")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -348,26 +354,26 @@ export default function Carports() {
                             <div className={styles.blocks}>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Material</p>
-                                        <p>S350 high-strength structural steel</p>
+                                        <p>{t("carports:carports.material")}</p>
+                                        <p>{t("carports:carports.steel")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Anti-corrosion coating:</p>
-                                        <p>Galvanised</p>
+                                        <p>{t("carports:carports.coating")}</p>
+                                        <p>{t("carports:carports.gal")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Warranty:</p>
-                                        <p>15 years for the structure and 5 years for the coating.</p>
+                                        <p>{t("carports:carports.warranty")}</p>
+                                        <p>{t("carports:carports.war")}</p>
                                     </div>
                                 </div>
                                 <div className={styles.line}>
                                     <div className={styles.block}>
-                                        <p>Additional options:</p>
-                                        <p>Inverter mount, Leak-proof roof, Foundations, RAL colour, Modular layout, Cut-out in the masking plate the inscription – logo</p>
+                                        <p>{t("carports:carports.options")}</p>
+                                        <p>{t("carports:carports.optionsV1")}</p>
                                     </div>
                                     <div className={styles.block}>
-                                        <p>Price:</p>
-                                        <p>1200 $</p>
+                                        <p>{t("carports:carports.price")}</p>
+                                        <p>{t("carports:carports.request")}</p>
                                     </div>
                                 </div>
                             </div>

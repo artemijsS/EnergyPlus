@@ -112,7 +112,6 @@
         padding: 0 20px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         color: var(--cl-dark-state);
 
         h4 {
@@ -122,11 +121,12 @@
           margin-top: 10%;
         }
         p {
+          margin-top: 2%;
           font-style: normal;
           font-weight: 300;
         }
         h6 {
-          margin-top: 5%;
+          margin-top: auto;
           margin-bottom: 10%;
           font-style: normal;
           font-weight: 700;

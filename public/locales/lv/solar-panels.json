@@ -3,5 +3,48 @@
     "title": "EnergyPlus | Saules Paneļi",
     "description": "EnergyPlus Saules Paneļi...",
     "keywords": "energyplus, saules paneļi, saules paneļi pirkt, saules paneļu tīrīšana, karporti"
+  },
+  "main": {
+    "h1": "Saules paneļu<br/>instalācijas pakalpojumi",
+    "h4": "Samaziniet enerģijas izmaksas, izmantojot saules paneļus"
+  },
+  "offer": {
+    "title": "Ko mēs piedāvājam <span>Jums?</span>",
+    "first": {
+      "h4": "Mēs pārdodam un uzstādām",
+      "p": "Ietaupiet rēķinus un samaziniet savu oglekļa pēdu. Mūsu komanda pārdod un uzstāda saules paneļus mājām un uzņēmumiem. Izbaudiet atjaunojamo enerģiju jau šodien.",
+      "h6": "Sazinieties ar mums, lai uzzinātu vairāk"
+    },
+    "second": {
+      "h4": "Mēs esam profesionāļi saules enerģijas jomā",
+      "p": "Ir svarīgi konsultēties ar profesionālu uzstādītāju, lai noteiktu labāko paneļu atrašanās vietu un izmēru maksimālai efektivitātei.",
+      "h6": "Un mēs esam šeit, lai jums palīdzētu!"
+    },
+    "third": {
+      "h4": "Kādi paneļi?",
+      "p": "Mēs palīdzēsim jums izvēlēties pareizos saules paneļus un invertoru jūsu vajadzībām. Tie galvenokārt ir paneļi no 400 līdz 550 vatiem.",
+      "h6": "Gaidām Jūsu vēlmes!"
+    }
+  },
+  "table": {
+    "title": "Realizējiet savus saulainos sapņus<br/>ar <span>EnergyPlus</span>",
+    "main": {
+      "cons": "Ideāls risinājums ēkām, kuru patēriņš ir vairāk par",
+      "month": "mēnesī"
+    },
+    "space": "Minimāli nepieciešamā brīvā vieta uz jumta",
+    "capacity": "Risinājuma jauda",
+    "financial": "Finansiāls ieguvums 25 gadu periodā",
+    "annual": "Gada elektrības ražošana",
+    "number": "Saules paneļu skaits",
+    "price": "Risinājuma cena",
+    "request": "Pēc pieprasījuma"
+  },
+  "important": {
+    "title": "Kāpēc tas ir svarīgi <span>Jums?</span>",
+    "_1": "Samaziniet rēķinus par enerģiju: saules paneļi ģenerē elektroenerģiju no saules gaismas, tādējādi samazinot jūsu atkarību no tīkla un enerģijas rēķinus.",
+    "_2": "Palieliniet mājas vērtību: saules paneļi var palielināt jūsu mājas vērtību, jo daudzi pircēji tos uzskata par vēlamu elementu.",
+    "_3": "Samaziniet oglekļa pēdas nospiedumu: Saules enerģija ir tīra un atjaunojama, kas nozīmē, ka jūs varat samazināt oglekļa pēdas nospiedumu un palīdzēt videi.",
+    "_4": "Valdības stimuli: daudzas valdības piedāvā stimulus, piemēram, nodokļu atlaides vai atlaides, lai veicinātu saules paneļu uzstādīšanu, padarot to par vēl pievilcīgāku iespēju."
   }
 }

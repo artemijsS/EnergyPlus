@@ -1,7 +1,39 @@
 {
   "seo": {
     "title": "EnergyPlus | Tīrīšana",
-    "description": "EnergyPlus Tīrīšana...",
+    "description": "Uzturiet savus saules paneļus ar maksimālo veiktspēju, izmantojot EnergyPlus profesionālos tīrīšanas pakalpojumus. Mūsu eksperti nodrošina maksimālu efektivitāti un enerģijas ražošanu ar regulāru tīrīšanu. Sazinieties ar mums jau šodien!",
     "keywords": "energyplus, saules paneļu tīrīšana, saules paneļi, kartports"
+  },
+  "main": {
+    "h1": "Saules Paneļu Tīrīšana",
+    "h4": "Iztīrīsim saules paneļus, kas uzstādīti jūsu mājas jumtā"
+  },
+  "important": {
+    "title": "Kāpēc saules paneļu tīrīšana ir<br/><span>svarīga?</span>",
+    "first": {
+      "h5": "Apskatīsim kopā, kāpēc tīrīšana ir tik svarīga!",
+      "p": "Saules paneļu regulāra tīrīšana ir svarīga, lai saglabātu to efektivitāti un palielinātu enerģijas ražošanu."
+    },
+    "second": {
+      "h5": "Ieteicamais saules paneļu tīrīšanas biežums",
+      "p": "Lai nodrošinātu optimālu veiktspēju, saules paneļus vajadzētu tīrīt vismaz divreiz gadā vai biežāk putekļainās vai piesārņotās vietās."
+    }
+  },
+  "process": {
+    "title": "Saules paneļu tīrīšanas process",
+    "_1": "Plānošana (mums jāzina darba sarežģītība - platība, augstums un slīpuma leņķis, uz kura ir uzstādīti paneļi)",
+    "_2": "Darba cenas apstiprināšana",
+    "_3": "Paneļu tīrīšana no ūdens piesārņojuma augšējā slāņa un pašu paneļu temperatūras pazemināšana",
+    "_4": "Īpaša saules paneļu tīrīšanas līdzekļa uzklāšana",
+    "_5": "Saules paneļu tīrīšana",
+    "_6": "Atlikušo mitrumu noņemamšana no paneļiem"
+  },
+  "cleaner": {
+    "title": "Ko mēs izmantojam<br/>tīrīšanai?",
+    "_1": "PV Clean izmantošana saules paneļu tīrīšanai var būt efektīvs veids, kā uzlabot to veiktspēju, noņemot netīrumus, putekļus un gružus.",
+    "_2": "Paneļu tīrīšana ar šo rīku dod iespēju mazgāšanas procesā neizmantot augstu ūdens spiedienu, kas ir drošāk pašiem paneļiem.",
+    "_3": "Tomēr ir svarīgi ievērot atbilstošus drošības pasākumus un ievērot ražotāja norādījumus.",
+    "_4": "Ja tas tiek darīts pareizi, saules paneļu tīrīšana ar PV Clean var būt lielisks veids, kā saglabāt to efektivitāti un pagarināt to kalpošanas laiku.",
+    "price": "15 Euro / 5 Litri"
   }
 }

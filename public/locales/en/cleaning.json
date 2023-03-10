@@ -1,7 +1,39 @@
 {
   "seo": {
     "title": "EnergyPlus | Cleaning",
-    "description": "EnergyPlus Cleaning...",
+    "description": "Keep your solar panels at peak performance with EnergyPlus professional cleaning services. Our experts ensure maximum efficiency and energy production with regular cleaning. Contact us today!",
     "keywords": "energyplus, solar panel cleaning, solar panels, carports"
+  },
+  "main": {
+    "h1": "Solar Panel Cleaning",
+    "h4": "We will also clean for you solar panels installed on your house roof"
+  },
+  "important": {
+    "title": "Why solar panel cleaning is<br/><span>important?</span>",
+    "first": {
+      "h5": "Lets see together, why cleaning is so important!",
+      "p": "Regular cleaning of solar panels is important to maintain their efficiency and maximize energy production."
+    },
+    "second": {
+      "h5": "Recommended frequency for cleaning solar panels",
+      "p": "Solar panels should be cleaned at least twice a year or more frequently in dusty or polluted areas to ensure optimal performance."
+    }
+  },
+  "process": {
+    "title": "Solar panel cleaning process",
+    "_1": "Planning (we need to know the complexity of the work - the area, height and angle of inclination on which the panels are installed)",
+    "_2": "Work price approval",
+    "_3": "Cleaning the panels from the top layer of water pollution and bringing down the temperature of the panels themselves",
+    "_4": "Applying a special cleaner for solar panels",
+    "_5": "Cleaning solar panels",
+    "_6": "Removing the remaining moisture from the panels"
+  },
+  "cleaner": {
+    "title": "What do We use for cleaning<br/>purposes?",
+    "_1": "Using PV Clean to clean solar panels can be an effective way to improve their performance by removing dirt, dust and debris.",
+    "_2": "Cleaning the panels with this tool makes it possible not to use high water pressure during the washing process, which is safer for the panels themselves.",
+    "_3": "However, it's important to take proper safety precautions and follow the manufacturer's guidelines.",
+    "_4": "If done correctly, cleaning your solar panels with PV Clean can be an excellent way to maintain their efficiency and prolong their lifespan.",
+    "price": "15 Euro / 5 Liters"
   }
 }
