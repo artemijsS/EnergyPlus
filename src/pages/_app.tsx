@@ -8,6 +8,7 @@ import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next';
 import Cookies from 'js-cookie';
 import { FontStyles } from '@/utils/fontChange';
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -31,7 +32,8 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
       <MainContext>
-        <Component {...pageProps} />
+          <GoogleAnalytics gaMeasurementId={"G-M051PDXZWL"} />
+          <Component {...pageProps} />
       </MainContext>
       )
 }
