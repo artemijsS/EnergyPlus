@@ -41,7 +41,7 @@ function CookieNotify(): JSX.Element {
             <div className={"all-screen " + styles.cookie}>
                 <div className={styles.cookieBlock}>
                     <div className={styles.heading}>
-                        <h1>{t("cookieNotify:title")}</h1>
+                        <h3>{t("cookieNotify:title")}</h3>
                     </div>
                     <p>{t("cookieNotify:text")}</p>
                     <button onClick={onAgreeClick}>{t("cookieNotify:agree")}</button>
