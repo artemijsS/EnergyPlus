@@ -19,6 +19,15 @@
       "p": "Solar panels should be cleaned at least twice a year or more frequently in dusty or polluted areas to ensure optimal performance."
     }
   },
+  "calculator": {
+    "title": "Price calculator",
+    "count": "Number of panels",
+    "height": "Number of floors",
+    "angle": "Roof angle",
+    "location": "Location",
+    "riga": "Riga",
+    "rigaNov": "Riga district"
+  },
   "process": {
     "title": "Solar panel cleaning process",
     "_1": "Planning (we need to know the complexity of the work - the area, height and angle of inclination on which the panels are installed)",

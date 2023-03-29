@@ -19,6 +19,15 @@
       "p": "Lai nodrošinātu optimālu veiktspēju, saules paneļus vajadzētu tīrīt vismaz divreiz gadā vai biežāk putekļainās vai piesārņotās vietās."
     }
   },
+  "calculator": {
+    "title": "Cenas kalkulators",
+    "count": "Paneļu skaits",
+    "height": "Stāvu skaits",
+    "angle": "Jumta leņķis",
+    "location": "Atrašanās vieta",
+    "riga": "Rīga",
+    "rigaNov": "Rīgas rajons"
+  },
   "process": {
     "title": "Saules paneļu tīrīšanas process",
     "_1": "Plānošana (mums jāzina darba sarežģītība - platība, augstums un slīpuma leņķis, uz kura ir uzstādīti paneļi)",

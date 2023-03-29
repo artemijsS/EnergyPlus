@@ -4,6 +4,7 @@ import {useTranslation} from "next-i18next";
 import Image from "next/image";
 import MainContainer from "@/components/MainContainer"
 import ContactUs from "@/components/common/ContactUs"
+import Calculator from "@/components/calculator/Calculator"
 import styles from '@/styles/pagesStyles/cleaning.module.scss';
 
 import mainCleaning from '@/assets/cleaning/mainCleaning.png';
@@ -53,6 +54,10 @@ export default function Cleaning() {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className={"wrapper " + styles.section}>
+                <h2 dangerouslySetInnerHTML={{ __html: t("cleaning:calculator.title") }}/>
+                <Calculator />
             </section>
             <section className={"wrapper " + styles.section}>
                 <h2 dangerouslySetInnerHTML={{ __html: t("cleaning:process.title") }} />
